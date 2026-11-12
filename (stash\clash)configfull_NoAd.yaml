@@ -159,84 +159,84 @@ dns:
     - https://doh.pub/dns-query
     - https://223.5.5.5/dns-query#h3=true
   nameserver-policy:
-# 第一优先级：国内及隐私域名
-"rule-set:private_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    # 第一优先级：国内及隐私域名
+    "rule-set:private_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-"rule-set:direct_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    "rule-set:direct_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-"rule-set:cn_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    "rule-set:cn_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-# 国内服务及应用
-"rule-set:wechat_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    # 国内服务及应用
+    "rule-set:wechat_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-"rule-set:alibaba_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    "rule-set:alibaba_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-"rule-set:115_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    "rule-set:115_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-"rule-set:aliyun_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    "rule-set:aliyun_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-"rule-set:xiaomi_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    "rule-set:xiaomi_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-"rule-set:iptv_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    "rule-set:iptv_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-"rule-set:apple_cn_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    "rule-set:apple_cn_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-"rule-set:apple_firmware_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    "rule-set:apple_firmware_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-"rule-set:bank_cn_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    "rule-set:bank_cn_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-"rule-set:ai_cn_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    "rule-set:ai_cn_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-"rule-set:steam_cn_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    "rule-set:steam_cn_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-"rule-set:media_cn_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    "rule-set:media_cn_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-"rule-set:NetEaseMusic_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    "rule-set:NetEaseMusic_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-"rule-set:game_cn_domain":
-  - https://doh.pub/dns-query
-  - "https://223.5.5.5/dns-query#h3=true"
+    "rule-set:game_cn_domain":
+    - https://doh.pub/dns-query
+    - "https://223.5.5.5/dns-query#h3=true"
 
-# 国外服务
-"rule-set:proxy_domain":
-  - https://dns.google/dns-query
-  - https://dns.cloudflare.com/dns-query
+    # 国外服务
+    "rule-set:proxy_domain":
+    - https://dns.google/dns-query
+    - https://dns.cloudflare.com/dns-query
 
-"rule-set:geolocation-!cn":
-  - https://dns.google/dns-query
-  - https://dns.cloudflare.com/dns-query
+    "rule-set:geolocation-!cn":
+    - https://dns.google/dns-query
+    - https://dns.cloudflare.com/dns-query
   nameserver:
     - https://dns.google/dns-query
     - https://dns.cloudflare.com/dns-query
